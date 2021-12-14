@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add product</title>
+</head>
+<body>
+	<form action="../controller/addproductCheck.php" method="POST">
+		<fieldset>
+			<legend>Add Product</legend>
+			<div>
+				Name
+			</div>
+			<div>
+				<input type="text" name="name">
+			</div>
+			<div>
+				Buying Price
+			</div>
+			<div>
+				<input type="text" name="Bprice">
+			</div>
+			<div>
+				Selling Price
+			</div>
+			<div>
+				<input type="text" name="Sprice">
+			</div>
+			<hr>
+			<input type="checkbox" name="items[]"> Display
+			<hr>
+			<input type="submit" name="save" value="Save">
+		</fieldset>
+	</form>
+</body>
+</html>
